@@ -1,0 +1,42 @@
+header {
+    width: 100%;
+    height: 10%;
+
+    position: fixed;
+
+    background-color: white;
+
+    nav {
+        height: 100%;
+        width: 100%;
+        padding: 20px 60px 20px 60px;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        a {
+            font-size: 24px;
+            text-decoration: none;
+
+            color: black;
+        }
+
+        #home:hover {
+            color: #FF3370;
+        }
+
+        #about:hover {
+            color: #36dfb2;
+        }
+
+        #works:hover {
+            color: #30C5FF;
+        }
+
+        #contact:hover {
+            color: #8B51E1;
+        }
+
+    }
+}

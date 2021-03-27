@@ -1,0 +1,106 @@
+.aboutContent {
+    display: flex;
+    flex-direction: column;
+
+    .section {
+        display: flex;
+        justify-content: space-between;
+
+        margin-bottom: 160px;
+
+        .image-protection {
+            width: 420px;
+            margin-right: 60px;
+    
+            .image-border {
+                width: 420px;
+                height: 420px;
+        
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+        
+                margin-right: 60px;
+                border: solid 7px #36dfb2;
+        
+                .image1 {
+                    background-image: url(../assets/about1.jpg);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+        
+                    width: 92%;
+                    height: 92%;
+                    border-radius: 50%;
+                }
+
+                .image2 {
+                    background-image: url(../assets/about2.jpg);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+        
+                    width: 92%;
+                    height: 92%;
+                    border-radius: 50%;
+                }
+
+                .image3 {
+                    background-image: url(../assets/about3.jpg);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+        
+                    width: 92%;
+                    height: 92%;
+                    border-radius: 50%;
+                }
+
+            }    
+            
+        }
+
+        .text {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            
+            max-width: 55%;
+    
+            h2 {
+                font-size: 32px;
+                color: #36dfb2;
+    
+                margin-bottom: 30px;
+            }
+    
+            p {
+                font-size: 20px;
+            }
+        }
+    }
+
+    
+
+
+    
+}
+
+@media only screen and (max-width: 1600px) {
+    .aboutContent {
+        flex-direction: column;
+
+        .image-protection {
+            margin: 0 auto;
+        }
+        
+        .text {
+            width: 100%;
+            max-width: 100%;
+
+            margin-top: 60px;
+        }
+    }
+}
